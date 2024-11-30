@@ -21,6 +21,21 @@
 
   --border-primary: #313131;
 
+  --font-size-h1: 72px;
+  --font-size-h2: 64px;
+  --font-size-h3: 56px;
+  --font-size-h4: 48px;
+  --font-size-h5: 36px;
+  --font-size-h6: 32px;
+
+  --font-size-body1: 24px;
+  --font-size-body2: 20px;
+  --font-size-body3: 18px;
+  --font-size-body4: 16px;
+  --font-size-body5: 14px;
+
+  --font-size-caption: 12px;
+
   --background: #ffffff;
   --foreground: #171717;
 }
