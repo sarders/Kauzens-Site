@@ -21,6 +21,9 @@
 
   --border-primary: #313131;
 
+  --background: #ffffff;
+  --foreground: #171717;
+
   --font-size-h1: 72px;
   --font-size-h2: 64px;
   --font-size-h3: 56px;
@@ -35,9 +38,6 @@
   --font-size-body5: 14px;
 
   --font-size-caption: 12px;
-
-  --background: #ffffff;
-  --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
