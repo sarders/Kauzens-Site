@@ -55,17 +55,17 @@ const mapVariantToComponent = (variant: VariantType) => {
 
 const mapColorToHex = (color?: ColorType) => {
   if (color === "primary") {
-    return "#1a1a1a";
+    return "#EFEFEF";
   }
   if (color === "secondary") {
-    return "#515151";
+    return "#CFCFCF";
   }
   if (color === "tertiary") {
-    return "#464646";
+    return "#8C8C8C";
   }
   if (color) {
     return color;
-  } else return undefined;
+  } else return "#EFEFEF";
 };
 
 type ColorType = "primary" | "secondary" | "tertiary" | `#${string}`;
