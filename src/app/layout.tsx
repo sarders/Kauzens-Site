@@ -19,7 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${interTight.className}`}>{children}</body>
+      <body
+        className={`${interTight.className}`}
+        style={{ height: "100vh", overflow: "hidden" }}
+      >
+        {children}
+      </body>
     </html>
   );
 }
