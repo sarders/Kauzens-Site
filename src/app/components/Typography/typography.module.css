@@ -1,0 +1,49 @@
+.h1 {
+  font-size: var(--font-size-h1);
+  line-height: 1.5;
+}
+.h2 {
+  font-size: var(--font-size-h2);
+  line-height: 1.5;
+}
+.h3 {
+  font-size: var(--font-size-h3);
+  line-height: 1.5;
+}
+.h4 {
+  font-size: var(--font-size-h4);
+  line-height: 1.5;
+}
+.h5 {
+  font-size: var(--font-size-h5);
+  line-height: 1.5;
+}
+.h6 {
+  font-size: var(--font-size-h6);
+  line-height: 1.5;
+}
+.body1 {
+  font-size: var(--font-size-body1);
+  line-height: 1.5;
+}
+.body2 {
+  font-size: var(--font-size-body2);
+  line-height: 1.5;
+}
+.body3 {
+  font-size: var(--font-size-body3);
+  line-height: 1.5;
+}
+.body4 {
+  font-size: var(--font-size-body4);
+  line-height: 1.5;
+}
+.body5 {
+  font-size: var(--font-size-body5);
+  line-height: 1.5;
+}
+
+.caption {
+  font-size: var(--font-size-caption);
+  line-height: 1.5;
+}
