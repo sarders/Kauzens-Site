@@ -21,9 +21,6 @@
 
   --border-primary: #313131;
 
-  --background: #ffffff;
-  --foreground: #171717;
-
   --font-size-h1: 72px;
   --font-size-h2: 64px;
   --font-size-h3: 56px;
@@ -40,13 +37,6 @@
   --font-size-caption: 12px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 html,
 body {
   max-width: 100vw;
@@ -54,8 +44,7 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  background: var(--background-black);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -70,10 +59,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
