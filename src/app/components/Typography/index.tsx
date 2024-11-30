@@ -7,6 +7,7 @@ export const Typography = ({
   textAlign,
   fontSize,
   color,
+  fontWeight = 500,
 }: {
   component?: ComponentType;
   variant: VariantType;
@@ -21,6 +22,7 @@ export const Typography = ({
     | "match-parent";
   fontSize?: number;
   color?: ColorType;
+  fontWeight?: number;
 }) => {
   const TextHtmlTag = component
     ? (component as keyof JSX.IntrinsicElements)
@@ -32,6 +34,7 @@ export const Typography = ({
         textAlign: textAlign,
         fontSize: fontSize,
         color: mapColorToHex(color),
+        fontWeight: fontWeight,
       }}
       className={styles[variant]}
     >
