@@ -26,9 +26,10 @@ export default function Home() {
           </Container>
           <Container maxWidth={"1040px"}>
             <Stack gap={32}>
-              <Card paddingY={28} paddingX={214} theme="midLight">
-                <div></div>
-              </Card>
+              <Typography variant="body2" textAlign="center" color="#FBFF4B">
+                Welcome to Kauzens International
+              </Typography>
+
               <Typography variant="h1" textAlign="center">
                 High-converting B2B websites that flood your business with
                 ready-to-buy customers
