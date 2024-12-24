@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "./globals.css";
 import { Inter_Tight } from "next/font/google";
 
 const interTight = Inter_Tight({
