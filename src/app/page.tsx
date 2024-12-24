@@ -4,6 +4,7 @@ import { Stack } from "./components/Stack";
 import { Typography } from "./components/Typography";
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Button } from "./components/Button";
 
 export default function Home() {
   return (
@@ -40,7 +41,7 @@ export default function Home() {
                 </Typography>
               </Container>
               <Stack gap={16}>
-                <button>Get on a free call now</button>
+                <Button>Get on a free call now</Button>
                 <Typography variant="body2" textAlign="center">
                   We provide customized services just for you so that you
                   benefit from each 💵 you pay
