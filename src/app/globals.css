@@ -1,3 +1,5 @@
+@layer reset, base, tokens, recipes, utilities;
+
 :root {
   --primary-color: #fbff4b;
   --primary-hover: #d1d600;
